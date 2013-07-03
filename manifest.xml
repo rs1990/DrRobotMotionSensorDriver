@@ -1,0 +1,17 @@
+<package>
+  <description brief="DrRobotMotionSensorDriver">
+
+     DrRobotMotionSensorDriver
+
+  </description>
+  <author>dri</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/DrRobotMotionSensorDriver</url>
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-Wl,-rpath,${prefix}/lib
+    -L${prefix}/lib -lDrRobotMotionSensorDriver"/>
+  </export> 
+</package>
+
+
